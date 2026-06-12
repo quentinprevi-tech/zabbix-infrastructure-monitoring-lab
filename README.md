@@ -129,3 +129,11 @@ The project demonstrates how a system and network administrator can use Zabbix t
 
 ![OPNsense SNMP](screenshots/12-zabbix-opnsense-snmp-latest-data.png)
 
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [Linux Web Monitoring](docs/linux-web-monitoring.md)
+- [Windows AD and DNS Monitoring](docs/windows-ad-dns-monitoring.md)
+- [Veeam Monitoring](docs/veeam-monitoring.md)
+- [OPNsense SNMP Monitoring](docs/opnsense-snmp-monitoring.md)
+- [Alerting](docs/alerting.md)
