@@ -77,3 +77,55 @@ This lab validates a complete infrastructure monitoring setup using Zabbix.
 The monitoring covers Linux, Windows Server, DNS, HTTP, Veeam Backup & Replication and OPNsense firewall metrics.
 
 The project demonstrates how a system and network administrator can use Zabbix to monitor infrastructure health, detect service outages and validate alerting workflows.
+
+
+## Screenshots
+
+### Linux host metrics from debian-dmz-web01
+
+![Linux latest data](screenshots/01-zabbix-web01-latest-data.png)
+
+### Nginx HTTP check with response code 200
+
+![HTTP check](screenshots/02-zabbix-web01-http-check.png)
+
+### SRV-AD01 Windows agent availability
+
+![SRV-AD01 agent](screenshots/03-zabbix-srv-ad01-agent-green.png)
+
+### SRV-AD01 DNS TCP 53 check
+
+![DNS check](screenshots/04-zabbix-srv-ad01-dns-check.png)
+
+### DNS trigger configured
+
+![DNS trigger](screenshots/05-zabbix-srv-ad01-dns-trigger-ok.png)
+
+### DNS alert in PROBLEM state
+
+![DNS alert problem](screenshots/06-zabbix-srv-ad01-dns-alert-problem.png)
+
+### DNS alert resolved
+
+![DNS alert resolved](screenshots/07-zabbix-srv-ad01-dns-alert-resolved.png)
+
+### Veeam repository disk monitoring
+
+![Veeam repository disk](screenshots/08-zabbix-veeam-repository-disk-monitoring.png)
+
+### Veeam repository usage trigger
+
+![Veeam repository trigger](screenshots/09-zabbix-veeam-repository-trigger-ok.png)
+
+### Veeam services monitoring
+
+![Veeam services](screenshots/10-zabbix-veeam-services-monitoring.png)
+
+### Veeam services triggers
+
+![Veeam service triggers](screenshots/11-zabbix-veeam-services-triggers-ok.png)
+
+### OPNsense SNMP monitoring
+
+![OPNsense SNMP](screenshots/12-zabbix-opnsense-snmp-latest-data.png)
+
